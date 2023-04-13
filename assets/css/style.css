@@ -18,6 +18,11 @@ body {
 a {
     text-decoration: none;
 }
+.btn--hover:hover {
+    opacity: 0.8;
+    transition: 0.25s;
+    transform: translateX(20px);
+}
 .btn {
     --height: 60px;
     display: inline-block;
@@ -324,4 +329,38 @@ a {
 }
 .work-item__more:hover {
     text-decoration: underline;
+}
+/* Feature */
+.feature {
+    margin-top: 85px 0;
+    padding: 85px 0;
+}
+.feature__media {
+    width: 48%;
+}
+.feature__img {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    position: absolute;
+    right: -58px;
+    bottom: -121px;
+    width: 332px;
+    height: 370px;
+    object-fit: cover;
+}
+.feature__images {
+    position: relative;
+}
+.feature__inner {
+    display: flex;
+    column-gap: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature__desc {
+    margin: 18px 0 38px;
 }
