@@ -298,17 +298,17 @@
                     </article>
                 </div>
 
-                <div class="member__control">
+                <div class="member__control control">
                     <!-- left -->
-                    <button class="member__control-btn">
+                    <button class="control__btn">
                         <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.5 1L0.5 6L5.5 11" stroke="currentColor" stroke-linecap="round"
                                 stroke-linejoin="round" />
                         </svg>
                     </button>
                     <!-- right -->
-                    <button class="member__control-btn">
-                        <svg class="member__control-icon" width="6" height="12" viewBox="0 0 6 12" fill="none"
+                    <button class="control__btn">
+                        <svg class="control-icon" width="6" height="12" viewBox="0 0 6 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.5 1L0.5 6L5.5 11" stroke="currentColor" stroke-linecap="round"
                                 stroke-linejoin="round" />
@@ -349,61 +349,72 @@
         <!-- News -->
         <section class="news">
             <div class="container">
-                <!-- left -->
-                <div class="news-content">
+                <div class="news__inner">
+                    <!-- left -->
                     <section class="news__content">
-                        <h1 class="news__heading section-heading">Read Latest News & Events.</h1>
-                        <a href="#!" class="news__read">Read All Blog</a>
-                        <div class="new__content-btn">
-                            <a class="news__btn-thumb news__btn">
+                        <h2 class="news__heading section-heading">Read Latest News & Events.</h2>
+                        <a href="#!" class="news__more">Read All Blog</a>
+                        <div class="news__control control">
+                            <!-- left -->
+                            <button class="control__btn">
                                 <svg width="6" height="12" viewBox="0 0 6 12" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5.5 1L0.5 6L5.5 11" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                            </a>
-                            <a class="news__btn-thumb--1 news__btn">
-                                <svg width="6" height="12" viewBox="0 0 6 12" fill="none"
+                            </button>
+                            <!-- right -->
+                            <button class="control__btn">
+                                <svg class="control-icon" width="6" height="12" viewBox="0 0 6 12" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5.5 1L0.5 6L5.5 11" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                            </a>
+                            </button>
                         </div>
                     </section>
+
                     <!-- right -->
-                    <section class="news__images">
+                    <div class="news__list">
                         <!-- item 1 -->
-                        <div class="news__img">
-                            <img src="./assets/img/vaccine.png" alt="" class="news__thumb">
-                            <div class="news-product">
-                                <h3 class="news__img-heading">
-                                    Key Considerations for Regulatory Compliant.
+                        <article class="news-item">
+                            <figcaption class="news-item__thumb">
+                                <img src="./assets/img/test-1.jpg" alt="Vaccine" class="news-item__img">
+                            </figcaption>
+                            <section class="news-item__body">
+                                <h3>
+                                    <a href="#!" class="new-item__heading">
+                                        Key Considerations for Regulatory Compliant.
+                                    </a>
                                 </h3>
-                                <p class="news__img-desc">
+                                <p class="news-item__desc">
                                     It’s easy to think about medical care
                                     from a narrow perspective.
                                     You go to the hospital.
                                 </p>
-                                <a href="#!" class="news__img-more">Learn More</a>
-                            </div>
-                        </div>
+                                <a href="#!" class="news-items__more">Learn More</a>
+                            </section>
+                        </article>
                         <!-- item 2 -->
-                        <div class="news__img">
-                            <img src="./assets/img/vaccine-1.png" alt="" class="news__thumb">
-                            <div class="news-product">
-                                <h3 class="news__img-heading">
-                                    Key Considerations for Regulatory Compliant.
+                        <article class="news-item">
+                            <figcaption class="news-item__thumb">
+                                <img src="./assets/img/test-1.jpg" alt="Vaccine" class="news-item__img">
+                            </figcaption>
+                            <section class="news-item__body">
+                                <h3>
+                                    <a href="#!" class="new-item__heading">
+                                        What Is Population Health Management?
+                                    </a>
                                 </h3>
-                                <p class="news__img-desc">
+                                <p class="news-item__desc">
                                     It’s easy to think about medical care
                                     from a narrow perspective.
                                     You go to the hospital.
                                 </p>
-                                <a href="#!" class="news__img-more">Learn More</a>
-                            </div>
-                        </div>
-                    </section>
+                                <a href="#!" class="news-items__more">Learn More</a>
+                            </section>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
